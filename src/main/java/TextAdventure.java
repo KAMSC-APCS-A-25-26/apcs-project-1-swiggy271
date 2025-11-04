@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 import java.util.Random;
 public class TextAdventure {
@@ -236,11 +235,13 @@ public class TextAdventure {
                             }
                             possesion = !possesion;
                             yds = 100 - yds;
+                            scrmYds = 10;
                             down = 1;
                         } else {
                             System.out.print("\nDOINK!! YIKES!!!!!");
                             possesion = !possesion;
                             yds = 100 - yds;
+                            scrmYds = 10;
                             down = 1;
                         }
                     }
