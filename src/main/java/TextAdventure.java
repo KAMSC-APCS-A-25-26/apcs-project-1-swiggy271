@@ -240,7 +240,7 @@ public class TextAdventure {
                                 p2Score += 3;
                             }
                             possesion = !possesion;
-                            yds = 100 - yds;
+                            yds = 50;
                             scrmYds = 10;
                             down = 1;
                         } else {
