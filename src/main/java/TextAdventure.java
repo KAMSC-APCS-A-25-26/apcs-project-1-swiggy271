@@ -232,7 +232,7 @@ public class TextAdventure {
                         }
                     } else {
                         // if punting, scales by distance/2
-                        if (randPerc.nextInt(101) > (100 - (yds / 2))) {
+                        if (randPerc.nextInt(101) < (100 - (yds / 2))) {
                             System.out.print("\nGOOD!");
                             if (possesion) {
                                 p1Score += 3;
