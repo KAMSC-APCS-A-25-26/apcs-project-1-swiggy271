@@ -203,6 +203,9 @@ public class TextAdventure {
                                     p2Score += 6;
                                 }
                                 possesion = !possesion;
+                                yds = 50;
+                                scrmYds = 10;
+                                down = 1;
                             } else {
                                 if (scrmYds - change < 1) {
                                     // scrimmage passed; first down
