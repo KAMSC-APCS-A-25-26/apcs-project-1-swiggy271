@@ -215,6 +215,9 @@ public class TextAdventure {
                                         // exceeds down limit
                                         System.out.print("\nTURNOVER!!");
                                         possesion = !possesion;
+                                        yds = 100 - yds;
+                                        scrmYds = 10;
+                                        down = 1;
                                     }
                                     // nothing special just 0+ yds gained
                                     System.out.print("\n" + change + " yds gained");
